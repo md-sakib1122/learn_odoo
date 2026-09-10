@@ -249,3 +249,11 @@ Try answering these before moving on (answers are all above if you get stuck):
 3. Is a Sales Manager the same thing as an Odoo Administrator?
 4. What's the difference between an Internal User and a Portal User in terms of what they can log into?
 5. Why can two "Internal Users" have completely different permissions?
+
+## Odoo security-এর basic chain
+User → Group → Model → Access Rights + Record Rules
+
+Group = কে
+Model = কোন data
+Access Rights = কী করতে পারবে
+Record Rules = কোন records-এর উপর করতে পারবে
